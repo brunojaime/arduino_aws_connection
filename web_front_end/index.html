@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="myForm">
+          <fieldset class="form-fieldset">
+            <legend class="form-legend">Carga de estado máquinas</legend>
+      
+            <label class="form-label" for="name">Nombre</label>
+            <input type="text" id="ESP_ID" name="ESP_ID" class="form-input" required>
+
+            <label class="form-label" for="categoria">Categoria</label>
+            <input type="text" id="categoria" name="categoria"class="form-input" required>
+      
+            <label class="form-label" for="description">Descripción</label>
+            <textarea id="description" name="description" class="form-textarea" required></textarea>
+      
+            
+      
+            <button type="submit" class="form-button">Cargar</button>
+          </fieldset>
+        </form>
+      </div>
+</body>
+</html>
