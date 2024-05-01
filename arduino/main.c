@@ -1,3 +1,4 @@
+//YOU NEED TO HAVE ALL YOUR AWS CERTIFICATES ON secrets.h
 #include "secrets.h"
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
